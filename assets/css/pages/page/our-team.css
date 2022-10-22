@@ -1,0 +1,49 @@
+#our-team-page{
+    margin-bottom: 150px;
+}
+#our-team-page .our-team-page-head{
+    margin-bottom: 48px;
+}
+#our-team-page .our-team-page-head h2{
+    color: var(--pink);
+    font-family: anglecia;
+    font-size: 48px;
+}
+#our-team-page .our-team-page-left .our-team-left-img{
+    width: 570px;
+    height: 444px;
+}
+#our-team-page .our-team-page-left .our-team-left-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#our-team-page .our-team-page-right .our-team-right-text .our-team-right-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#our-team-page .our-team-page-right .our-team-right-text .our-team-right-head h4{
+    font-weight: 500;
+    font-size: 24px;
+}
+#our-team-page .our-team-page-right .our-team-right-text .our-team-right-head span{
+    font-weight: 400;
+    font-size: 16px;
+}
+#our-team-page .our-team-page-right .our-team-right-text .our-team-right-middle{
+    width: 90%;
+    verflow-wrap: break-word;
+}
+#our-team-page .our-team-page-right .our-team-right-text .our-team-right-middle p{
+    font-size: 16px;
+    font-weight: 400;
+}
+#our-team-page .our-team-page-right .our-team-right-text .our-team-btns{
+    display: flex;
+}
+#our-team-page .our-team-page-right .our-team-right-text .our-team-btns .our-team-apply-btn a{
+    text-decoration: underline !important;
+    color: var(--pink);
+    font-size: 18px;
+}

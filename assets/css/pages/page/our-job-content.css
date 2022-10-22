@@ -1,0 +1,48 @@
+#our-job-content-page{
+    margin-bottom: 150px;
+}
+#our-job-content-page .our-job-content-container{
+    padding: 81px 0px;
+}
+#our-job-content-page .our-job-content-container:nth-child(even) .container .row{
+    flex-direction: row-reverse;
+}
+#our-job-content-page .our-job-content-left .our-job-content-left-img{
+    width: 570px;
+    height: 380px;
+}
+#our-job-content-page .our-job-content-left .our-job-content-left-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#our-job-content-page .our-job-content-right .our-job-content-right-container{
+    display: flex;
+    align-items: center;
+}
+#our-job-content-page .our-job-content-right .our-job-content-right-head{
+    width: 55%;
+}
+#our-job-content-page .our-job-content-right .our-job-content-right-head h3{
+    color: var(--black-1);
+    font-size: 28px;
+    font-family: anglecia;
+}
+#our-job-content-page .our-job-content-right .our-job-content-right-paragraph{
+    width: 70%;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+#our-job-content-page .our-job-content-right .our-job-content-right-paragraph p{
+    font-size: 16px;
+    color: var(--black-1);
+}
+#our-job-content-page .our-job-content-right .our-job-btns{
+    margin-top: 40px;
+}
+#our-job-content-page .our-job-content-right .our-job-btns .our-job-apply-btn a{
+    text-decoration: underline !important;
+    color: var(--pink);
+    font-size: 18px;
+}

@@ -1,0 +1,148 @@
+#photos-inside .photos-inside-upper .upper-left .slider-for{
+    margin-bottom: 30px;
+}
+#photos-inside .photos-inside-upper .upper-left .slider-for .slider-img{
+    width: 100%;
+    height: 443px;
+}
+#photos-inside .photos-inside-upper .upper-left .slider-for .slider-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#photos-inside .photos-inside-upper .upper-left .slider-nav{
+    margin: 0 -16px;
+}
+#photos-inside .photos-inside-upper .upper-left .slider-nav .slider-sub-img{
+    width: 100%;
+    height: 170px;
+    margin: 0 16px;
+}
+#photos-inside .photos-inside-upper .upper-left .slider-nav .slider-sub-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#photos-inside .photos-inside-upper .upper-left{
+    position: relative;
+}
+#photos-inside .photos-inside-upper .upper-left .photos-btn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+}
+#photos-inside .photos-inside-upper .upper-left .photos-next{
+    left: 100%;
+}
+#photos-inside .photos-inside-upper .upper-left .photos-prev{
+    right: 100%;
+}
+#photos-inside .photos-inside-upper .upper-left .photos-btn{
+    margin:0px 20px;
+}
+#photos-inside .photos-inside-upper .upper-left .photos-btn img{
+    padding: 10px 14px;
+    border-radius: 50%;
+    border: 1px solid var(--black-1);
+}
+#photos-inside .photos-inside-upper .upper-right{
+    width: 80%;
+    margin: auto;
+}
+#photos-inside .photos-inside-upper .upper-right .share-btn .share{
+    margin: 20px 0px;
+    display: flex;
+}
+#photos-inside .photos-inside-upper .upper-right .share-btn .share img{
+    margin-right: 20px;
+}
+#photos-inside .photos-inside-upper .upper-right .share-btn .share .share-media{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-50px);
+}
+#photos-inside .photos-inside-upper .upper-right .share-btn .share .share-media.active-share{
+    opacity: 1;
+    visibility: visible;
+    transition: .5s ease;
+    transform: translateX(0px);
+}
+#photos-inside .photos-inside-upper .upper-right .share-btn .share .share-media a{
+    color: var(--black-1);
+    font-size: 20px;
+    margin-right: 10px;
+}
+#photos-inside .photos-inside-upper .upper-right .upper-right-head{
+    margin-bottom: 30px;
+}
+#photos-inside .photos-inside-upper .upper-right .upper-right-head h2{
+    font-size: 48px;
+    color: var(--pink);
+    font-family: anglecia;
+}
+#photos-inside .photos-inside-upper .upper-right .upper-right-paragraph{
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+#other-photos{
+    margin-top: 200px;
+    margin-bottom: 160px;
+}
+#other-photos .photos-head h2{
+    font-size: 48px;
+    font-family: anglecia;
+    color: var(--pink);
+}
+#other-photos .photos-content{
+    margin-top: 50px;
+}
+#other-photos .photos-content a{
+    color: var(--black-1);
+}
+#other-photos .photos-content .photos-box .photos-images{
+    position: relative;
+}
+#other-photos .photos-content .photos-box .photos-images .img-box{
+    position: absolute;
+    width: 240px;
+    min-width: 90%;
+    height: 210px;
+}
+#other-photos .photos-content .photos-box .photos-images .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#other-photos .photos-content .photos-box .photos-images .photos-images-1{
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+#other-photos .photos-content .photos-box .photos-images .photos-images-2{
+    top: 5%;
+    left: 5%;
+    z-index: 2;
+    filter: brightness(.8);
+}
+#other-photos .photos-content .photos-box .photos-images .photos-images-3{
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+    filter: brightness(.5);
+}
+#other-photos .photos-content .photos-box .photos-box-texts{
+    padding-top: 250px;
+    text-align: start;
+}
+#other-photos .photos-content .photos-box .photos-box-texts .photos-box-head h4{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: anglecia;
+}
+#other-photos .photos-content .photos-box .photos-box-texts .photos-box-text{
+    width: 90%;
+}
+#other-photos .photos-content .photos-box .photos-box-texts .photos-box-text p{
+    font-size: 16px;
+    font-weight: 400;
+}

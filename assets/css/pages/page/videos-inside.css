@@ -1,0 +1,43 @@
+#videos-inside .videos-inside-upper .upper-left .videos-player iframe{
+    width: 100%;
+    height: 443px;
+}
+#videos-inside .videos-inside-upper .upper-right{
+    width: 80%;
+    margin: auto;
+}
+#videos-inside .videos-inside-upper .upper-right .share-btn .share{
+    margin: 20px 0px;
+    display: flex;
+}
+#videos-inside .videos-inside-upper .upper-right .share-btn .share img{
+    margin-right: 20px;
+}
+#videos-inside .videos-inside-upper .upper-right .share-btn .share .share-media{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-50px);
+}
+#videos-inside .videos-inside-upper .upper-right .share-btn .share .share-media.active-share{
+    opacity: 1;
+    visibility: visible;
+    transition: .5s ease;
+    transform: translateX(0px);
+}
+#videos-inside .videos-inside-upper .upper-right .share-btn .share .share-media a{
+    color: var(--black-1);
+    font-size: 20px;
+    margin-right: 10px;
+}
+#videos-inside .videos-inside-upper .upper-right .upper-right-head{
+    margin-bottom: 30px;
+}
+#videos-inside .videos-inside-upper .upper-right .upper-right-head h2{
+    font-size: 48px;
+    color: var(--pink);
+    font-family: anglecia;
+}
+#videos-inside .videos-inside-upper .upper-right .upper-right-paragraph{
+    overflow-wrap: break-word;
+    hyphens: auto;
+}

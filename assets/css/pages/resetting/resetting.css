@@ -1,0 +1,14 @@
+@font-face {
+    src: url("../../../../fonts/Anglecia-Pro-Display.otf");
+    font-family: anglecia;
+}
+:root{
+    --bg-color-main:#FFF6F0;
+}
+body{
+    background-color: var(--bg-color-main) !important;
+    font-family: gilroy !important;
+}
+a{
+    text-decoration: none !important;
+}

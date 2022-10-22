@@ -1,0 +1,80 @@
+@font-face {
+    src: url('../../../fonts/Gilroy-Regular.otf');
+    font-family: gilroy;
+}
+:root{
+    --black-1: #454545;
+    --pink:#E86D7C;
+    --pink-light:#FFE8E8;
+    --gray:#838383;
+}
+#header{
+    margin-top: 20px;
+}
+#header .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .header-container .header-left .header-left-img{
+    width: 167px;
+    height: 71px;
+}
+#header .header-container .header-left .header-left-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#header .header-container .header-right .nav-bar.active-nav{
+    display: block;
+}
+#header .header-container .header-right .nav-bar .main-ul{
+    display: flex;
+    margin-top: 15px;
+}
+#header .header-container .header-right .nav-bar .main-ul .main-li{
+    margin-left: 73px;
+    font-family: gilroy;
+}
+#header .header-container .header-right .nav-bar .main-ul .main-li:first-child{
+    margin-left: 0px;
+}
+#header .header-container .header-right .nav-bar .main-ul .hover-box{
+    position: relative;
+}
+#header .header-container .header-right .nav-bar .main-ul .hover-box .child-ul{
+    position: absolute;
+    z-index: 100;
+    left: -25px;
+    opacity: 0;
+    visibility: visible;
+    pointer-events: none;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 140px;
+    height: 173px;
+    padding: 20px 21px;
+    transition: .5s ease;
+}
+#header .header-container .header-right .nav-bar .main-ul .hover-box .language{
+    height: auto;
+    width: 100px;
+}
+#header .header-container .header-right .nav-bar .main-ul .hover-box a i{
+    transition: .5s ease;
+}
+#header .header-container .header-right .nav-bar .main-ul .hover-box:hover a i{
+    transform: rotateX(180deg);
+}
+#header .header-container .header-right .nav-bar .main-ul .hover-box:hover .child-ul{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+}
+#header .header-container .header-right .nav-bar .main-ul .main-li a{
+    color: var(--black-1);
+    font-weight: 500;
+    font-size: 16px;
+}
